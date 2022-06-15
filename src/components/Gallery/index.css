@@ -1,0 +1,30 @@
+/* Write your code here. */
+.header {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Roboto;
+  text-align: left;
+  padding: 10px;
+}
+.paragraph {
+  font-size: 20px;
+  font-family: Roboto;
+  text-align: left;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  max-width: 1140px;
+}
